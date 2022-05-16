@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "totemswap",
+  "version": "0.1.0",
+  "name": "TotemSwap",
+  "description": "Allows you to hotswap any totem in your inventory to your off-hand.",
+  "authors": [
+    "ComLarsic"
+  ],
+  "contact": {
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/totemswap/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.comlarsic.totemswap.TotemSwap"
+    ]
+  },
+  "mixins": [
+    "totemswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
